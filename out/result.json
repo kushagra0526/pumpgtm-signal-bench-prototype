@@ -1,0 +1,56 @@
+{
+ "dev": {
+  "any ICP match": {
+   "buyers_contacted": 95.5,
+   "positive_replies": 32.3,
+   "negatives": 38.6
+  },
+  "ICP + any like or comment": {
+   "buyers_contacted": 171.3,
+   "positive_replies": 50.2,
+   "negatives": 38.0
+  },
+  "scored, signals as observed": {
+   "buyers_contacted": 172.1,
+   "positive_replies": 51.2,
+   "negatives": 38.1
+  },
+  "scored, signals relative to own activity": {
+   "buyers_contacted": 146.8,
+   "positive_replies": 46.4,
+   "negatives": 40.3
+  },
+  "_messages_after_a_no_per_1000_contacts (signal rule)": {
+   "channels run independently": 76.1,
+   "stop on any reply, all channels": 19.0,
+   "stop on any reply + suppress the person": 0.0
+  }
+ },
+ "held_out": {
+  "any ICP match": {
+   "buyers_contacted": 50.0,
+   "positive_replies": 23.0,
+   "negatives": 38.9
+  },
+  "ICP + any like or comment": {
+   "buyers_contacted": 78.6,
+   "positive_replies": 29.5,
+   "negatives": 39.8
+  },
+  "scored, signals as observed": {
+   "buyers_contacted": 80.4,
+   "positive_replies": 28.0,
+   "negatives": 39.0
+  },
+  "scored, signals relative to own activity": {
+   "buyers_contacted": 72.8,
+   "positive_replies": 25.9,
+   "negatives": 39.1
+  },
+  "_messages_after_a_no_per_1000_contacts (signal rule)": {
+   "channels run independently": 79.7,
+   "stop on any reply, all channels": 19.9,
+   "stop on any reply + suppress the person": 0.0
+  }
+ }
+}
